@@ -15,6 +15,6 @@ React-based graph editor with form extension for data source assessment.
 
 
 ## Main Dependencies
-For React UI Components: [primereact](https://github.com/primefaces/primereact)
-<br \>
-Graph editor is based on type based [mxgraph](https://github.com/jgraph/mxgraph): [typed-mxgraph](https://github.com/typed-mxgraph/typed-mxgraph/)
+
++ For React UI Components: [primereact](https://github.com/primefaces/primereact)
++ Graph editor is based on type based [mxgraph](https://github.com/jgraph/mxgraph): [typed-mxgraph](https://github.com/typed-mxgraph/typed-mxgraph/)
