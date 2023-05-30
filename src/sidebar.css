@@ -1,0 +1,28 @@
+/* source adapted from: https://codesandbox.io/s/r52m86019m?file=/src/MxGraphGridEditor.js:20369-20378 */
+
+.sidebar {
+    font-size: 12px;
+    text-align: center;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+  }
+  .sidebar li {
+    list-style: none;
+    margin: 0;
+    padding: 3px 5px;
+    margin-bottom: 6px;
+    width: 80px;
+  }
+  .sidebar li.node {
+    border: 1px solid #6c757d98;
+    cursor: pointer;
+  }

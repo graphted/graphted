@@ -1,0 +1,782 @@
+{
+    "Property": {
+        "id": 0,
+        "type": "data_provider",
+        "iotTypes": [
+            "ciot"
+        ],
+        "categories": {
+            "dataType": "Map",
+            "value": [
+                {
+                    "Entry": {
+                        "key": "General",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Device Age",
+                                    "description": "Describes how old the device is. This takes into account if new releases of the same device category occurred after the release.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "old",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "legacy technology"
+                                        },
+                                        {
+                                            "groupName": "middle",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "common on the consumer market"
+                                        },
+                                        {
+                                            "groupName": "new",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "new technology"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Usability",
+                                    "description": "Describes to which extend the user can use the device with its most accurate settings. Takes into account learning curve, autoconfiguration and user interface usability",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "hard",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "not possible or only \"experts\" can configure the device to its full extend"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "after some effort it is possible to configure the optimal settings"
+                                        },
+                                        {
+                                            "groupName": "easy",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "no knowledge needed e.g. autoconfiguration"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Device compatibility",
+                                    "description": "Can the device be added to current IoT infrastructure? Is it isolated from other manufacturers? Does it require some adaptation?",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "limited",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "only in the intended infrastructure"
+                                        },
+                                        {
+                                            "groupName": "mostly",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "can be included into a more diverse infrastructure after some configuration"
+                                        },
+                                        {
+                                            "groupName": "seamlessly",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "can be included in any infrastructure without effort"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Amount of Data collection",
+                                    "description": "Describes to how many different data points/sources are collected on the device for a given function.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "data is collected from more or less one source"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "multiple data direct data information is collected"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "also coupled metadata is considered"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "name": "Data validation option",
+                                    "description": "Degree to which user can alternate data before it gets used by subprocesses.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "data cannot be altered afterwards"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "data collection available in blocks that could be deleted"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "correcting, deleting and adding of missing or erroneous data"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "name": "Certification",
+                                    "description": "Certificates, approvals or other commission validations.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "not available",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "no certificate given"
+                                        },
+                                        {
+                                            "groupName": "market or regulatory certificates",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "for example complies with Federal Communications Commission (FCC) rules."
+                                        },
+                                        {
+                                            "groupName": "medical or industry grade certificates",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "FDA or CE approval"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Connectivity",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Integration flexibility",
+                                    "description": "Describes to which extend the device is compatible to other communication standards.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "able to communicate with new standards"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "able communicate with most standards"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "supports legacy communication standards"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Communication quality",
+                                    "description": "Most of the devices are wireless. Describes the quality of their wireless connection. This includes aspects like range, transfer rate, amount of disconnects.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "no stable connection can be accomplished."
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "most of the time the connection can be kept up"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "stable connection"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Connection latency",
+                                    "description": "Latency for data communication. May be triggered by the connection or the speed of data processing",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "asynchronous communication (e.g. synchronizing after manual adjustments)"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "communication in bulks"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "communication data is always transferred"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Secured device accessibility",
+                                    "description": "Describes to which extend data can be accessed over the internet",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "full",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "knowing the device address, data can be accessed"
+                                        },
+                                        {
+                                            "groupName": "restricted",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "An admin interface keeps the user from connecting to the device."
+                                        },
+                                        {
+                                            "groupName": "only over specified resource",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "An admin interface keeps the user from connecting to the device. The user can specify the allowed connections to this interface."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Market standpoint",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Application quality",
+                                    "description": "Describes the quality of the application itself. This includes firmware, user feedback, store rating, and general quality of the applications for the IoT devices",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "Application is full of software bugs and nearly unusable"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "Application fulfils its purpose, but has some drawbacks"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "Application is fully tested and runs smoothly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Manufacturer prominence",
+                                    "description": "Describes how well the manufacturer is spread inside the IoT market for this type of device. This takes in account marketing experience, software design and manufacturing experience",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "sparse",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "unknown to the market. Niche product or newly entering the market."
+                                        },
+                                        {
+                                            "groupName": "mediocre",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "Known to most of the IoT consumer market"
+                                        },
+                                        {
+                                            "groupName": "wide spread",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "Even known to consumers, which are not engaged in the IoT market"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Price category",
+                                    "description": "Describes the amount of flaws by reducing costs or rushing the product onto the Market. The price category is related to same products of the given category",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "cheap",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "considerably cheaper than the average market value"
+                                        },
+                                        {
+                                            "groupName": "average",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "more or less the average market value"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "a higher price than the average market value"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Hardware",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Power source longevity",
+                                    "description": "Describes whether a battery is used and what type of battery is used. Takes into account longevity of the battery.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "less than 4 months",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "short amount of time"
+                                        },
+                                        {
+                                            "groupName": "4 months",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "medium amount of time"
+                                        },
+                                        {
+                                            "groupName": "over 6 months",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "can be used over a long period of time"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Power source power supply",
+                                    "description": "Takes into account the power provided to the given device. Describes if the given power is sufficient for the device.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "reduced performance",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "some components are kept on standby and do not always gather data"
+                                        },
+                                        {
+                                            "groupName": "nearly stable performance",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "no standby but some components are throttled and those dont gather data as accuratly as possible"
+                                        },
+                                        {
+                                            "groupName": "always full performance",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "all components are used to their full extend to gather data"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Power source time per charge",
+                                    "description": "Takes into account longevity, power supply and usable time per charge.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "The power source must be exchanged often"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "The power source must be exchanged on regular basis"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "The power source must be exchanged after a long period of time or not at all"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "The tracker and sensor types",
+                                    "description": "Describes the type of attached sensors.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low quality",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "low quality sensor or misplaced"
+                                        },
+                                        {
+                                            "groupName": "general purpose",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "e.g. Misused sensor (accelerometer for detecting wakefulness)"
+                                        },
+                                        {
+                                            "groupName": "specialized",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "appropriate sensor with perfect placement"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Mobility",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Movement amount",
+                                    "description": "Wearable device or static device like in a smart home environment.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "often",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "moved during its whole operation (wearable)"
+                                        },
+                                        {
+                                            "groupName": "partly",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "mostly static but moved sometimes (audio interface)"
+                                        },
+                                        {
+                                            "groupName": "static",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "never moved after installation (thermostat)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Security",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Security configurations",
+                                    "description": "Describes to which extend the security settings can be modified update by the device owner",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "no configuration possible",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "manufacturer doesn't give any possibility to configure the device"
+                                        },
+                                        {
+                                            "groupName": "basic settings like password",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "basic security settings like passwords are possible"
+                                        },
+                                        {
+                                            "groupName": "fully configurable",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "manifold advanced security option"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Software update currentness",
+                                    "description": "Describes how often the device receives important updates.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "never",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "device is shipped with static software"
+                                        },
+                                        {
+                                            "groupName": "regularly",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "updates are made on regular basis, although some important updates may be delayed to a day"
+                                        },
+                                        {
+                                            "groupName": "very often",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "as soon as possible important updates are pushed to the device"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Encrypted communication security",
+                                    "description": "Reduced risk of data manipulation",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "encrypted only after upload",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "unencrypted internal communication"
+                                        },
+                                        {
+                                            "groupName": "partly encrypted beforehand",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "encryption of critical data occurs"
+                                        },
+                                        {
+                                            "groupName": "fully encrypted communication",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "all communication data is encrypted"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

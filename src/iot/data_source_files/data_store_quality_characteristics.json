@@ -1,0 +1,1392 @@
+{
+    "rating": [
+        {
+            "groupName": "strongly disagree",
+            "value": 0,
+            "setValue": 0,
+            "isSelected": false
+        },
+        {
+            "groupName": "disagree",
+            "value": 1,
+            "setValue": 0,
+            "isSelected": false
+        },
+        {
+            "groupName": "neutral",
+            "value": 2,
+            "setValue": 0,
+            "isSelected": false
+        },
+        {
+            "groupName": "agree",
+            "value": 3,
+            "setValue": 0,
+            "isSelected": false
+        },
+        {
+            "groupName": "strongly agree",
+            "value": 4,
+            "setValue": 0,
+            "isSelected": false
+        }
+    ],
+    "Property": {
+        "id": 0,
+        "type": "data_store",
+        "iotTypes": [
+        ],
+        "categories": {
+            "dataType": "Map",
+            "value": [
+                {
+                    "Entry": {
+                        "key": "Representational Data Store Quality",
+                        "value": {
+                            "description": "It emphasized the importance of the representational role of system; that is, the system must present data in such a way that they are interpretable, easy to understand, and concisely and consistently represented.",
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Representational Adequacy",
+                                    "description": "Degree to which a data store presents data in a concise and organized way",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Schema Minimality",
+                                            "details": "Degree to which the schema is modelled without redundancies",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Schema Normalization",
+                                            "details": "Degree to which the schema is de-/normalized",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Schema Pertinence",
+                                            "details": "Degree to which the schema is modelled without unnecessary elements",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Representational Consistency",
+                                    "description": "Degree to which a data store presents data always in the same format and compatible with previous data",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Data Format Variety",
+                                            "details": "Refers to the amount of different data formats used by a data store to present data.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Data Type Variety",
+                                            "details": "Refers to the amount of different data types used by a data store to present data.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Schema Change Proneness",
+                                            "details": "Degree to which the schema is likely to change in the future.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Understandability",
+                                    "description": "Degree to which users can understand the data provided by a data store.",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Data Format Complexity",
+                                            "details": "Describes the overall complexity of the data format used by a data store to represent the data; It Includes aspects such as the amount of proprietary/open data formats used and the possibility to process the data format directly (i.e. no transformations needed); it also takes into account whether the data are presented in a clear, simple and well structured way.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Documentation Degree",
+                                            "details": "Degree to which a data store provides useful and complete documentation.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Metadata Quality",
+                                            "details": "Degree to which a data store provides metadata that are available, complete, useful, interpretable and human readable; it also takes into account the availability of data dictionaries or repositories.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 3,
+                                            "name": "Schema Readability",
+                                            "details": "Degree to which the schema is modelled in a natural, clear and self-explanatory way.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Dynamical Data Store Quality",
+                        "value": {
+                            "description": "It emphasized the importance of the dynamic role of system; that is, the system must be secure, available, accessible and provide up-to-date data with high performance.",
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Accessibility",
+                                    "description": "Degree to which data are easily and quickly retrievable",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Access Maturity",
+                                            "details": "Degree to which provided access methods (e.g. APIs) and protocols of a data store are mature and reliable.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Operability",
+                                            "details": "Degree to which a data store provides possibilities (e.g. management system, navigation mechanisms) that guides the access to it.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Retrievability",
+                                            "details": "Degree to which query possibilities of a data store are mature, reliable and require no additional requirements (e.g. registration).",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Availability",
+                                    "description": "Degree to which data are available from a data store.",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Durability",
+                                            "details": "Degree to which a data store keeps the data available for retrieval.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Fault Tolerance",
+                                            "details": "Degree to which a data store operates as intended despite the presence of hardware or software faults (e.g. CAP, ACID, BASE).",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Recoverability",
+                                            "details": "Degree to which a data store can re-establish the desired operating state after an interruption or failure (e.g. CAP, ACID, BASE).",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 3,
+                                            "name": "Scalability",
+                                            "details": "Degree to which a data store can deal with varying workloads without downtimes.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 4,
+                                            "name": "Uptime",
+                                            "details": "Degree to which a data store is up and running, i.e. reachable (e.g. CAP, ACID, BASE).",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Security",
+                                    "description": "Degree to which access to data for unauthorized persons is restricted by a data store.",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Authentification/Encryption",
+                                            "details": "Degree to which authentification and encryption are ensured by a data store.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Authorization Policy",
+                                            "details": "Degree to which authorization policies are in place on a data store.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Timeliness",
+                                    "description": "Degree to which a data store provides up-to-date data in timely manner",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Refresh Rate",
+                                            "details": "Degree to which the time interval between the occurrence of an event and the availablity of the data (which describe this event) on the data store sufficient.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Response Time",
+                                            "details": "Degree to which the response and processing times of a data store are sufficient.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Statical Data Store Quality",
+                        "value": {
+                            "description": "It emphasized the importance of the static role of system; that is, the system must be complete and trustworthy as well as provide support capabilities.",
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Completeness",
+                                    "description": "Degree to which a data store is able to represent every meaningful state of the real world.",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Schema Completeness",
+                                            "details": "Degree to which all real-world concepts are represented in the schema (complete representation).",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Schema Correctness",
+                                            "details": "Degree to which the schema corresponds to the real-world it is supposed to model (correct representation).",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Contactability",
+                                    "description": "Degree to which a data store provides contact information for further inquiries.",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Support Degree",
+                                            "details": "Describes the overall degree of support; it includes aspects such as service agreements, availability of previous developers and domain experts.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Trustworthiness",
+                                    "description": "Degree to which a data store can be trusted.",
+                                    "subproperties": [
+                                        {
+                                            "id": 0,
+                                            "name": "Complexity",
+                                            "details": "Describes the overall complexity of a data store; it includes aspects such as the complexity of the data model, the schema size and the extent of data processing/transforming; it also takes into account whether the data store type is known to the current developers.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 1,
+                                            "name": "Data Governance",
+                                            "details": "Degree to which data governance principles (e.g. data policies, cleaning, backup etc.) are applied on a data store.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Maturity",
+                                            "details": "Degree to which a data store is reliable (i.e. not prone to failures), stable (i.e. no recent upgrades, changes) and current (.e. latest stable software release installed).",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 3,
+                                            "name": "Verifiability",
+                                            "details": "Degree to which a data store provides information on the data origin, on changes made to the data and possibilities to check the data for correctness.",
+                                            "points": [
+                                                {
+                                                    "groupName": "no selection",
+                                                    "value": -1,
+                                                    "setValue": -1,
+                                                    "isSelected": true
+                                                },
+                                                {
+                                                    "groupName": "strongly disagree",
+                                                    "value": 4,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "disagree",
+                                                    "value": 3,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "neutral",
+                                                    "value": 2,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "agree",
+                                                    "value": 1,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                },
+                                                {
+                                                    "groupName": "strongly agree",
+                                                    "value": 0,
+                                                    "setValue": 0,
+                                                    "isSelected": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

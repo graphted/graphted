@@ -1,0 +1,79 @@
+<docElement>
+  <label>Hello,</label>
+  <metadata>
+    <id>0</id>
+    <type>data_store</type>
+    <iotTypes>iiot</iotTypes>
+    <categories>
+      <dataType>Map</dataType>
+      <value>
+        <key>Representional Data Store Quality</key>
+        <value>
+          <description>It emphasized the importance of the representational role of system; that is, the system must present data in such a way that they are interpretable, easy to understand, and concisely and consistently represented.</description>
+          <value>
+            <id>0</id>
+            <name>Representional Adequacy</name>
+            <description>Degree to which a data store presents data in a concise and organized way</description>
+            <subproperties>
+              <id>0</id>
+              <name>Schema Minimality</name>
+              <points>0</points>
+              <details>Degree to which the schema is modeled without redundancies</details>
+              <generalCategoryKey>Representional Data Store Quality</generalCategoryKey>
+              <categoryId>0</categoryId>
+            </subproperties>
+            <subproperties>
+              <id>1</id>
+              <name>Schema Normalization</name>
+              <points>0</points>
+              <details>Degree to which the schema is de-/normalized</details>
+              <generalCategoryKey>Representional Data Store Quality</generalCategoryKey>
+              <categoryId>0</categoryId>
+            </subproperties>
+            <subproperties>
+              <id>2</id>
+              <name>Schema Pertinence</name>
+              <points>0</points>
+              <details>Degreee to which the schema is modeled without unnecessary elements</details>
+              <generalCategoryKey>Representional Data Store Quality</generalCategoryKey>
+              <categoryId>0</categoryId>
+            </subproperties>
+          </value>
+        </value>
+        <key>Representional Data Store Quality</key>
+        <value>
+          <description>It emphasized the importance of the representational role of system; that is, the system must present data in such a way that they are interpretable, easy to understand, and concisely and consistently represented.</description>
+          <value>
+            <id>0</id>
+            <name>Representional Adequacy</name>
+            <description>Degree to which a data store presents data in a concise and organized way</description>
+            <subproperties>
+              <id>0</id>
+              <name>Schema Minimality</name>
+              <points>0</points>
+              <details>Degree to which the schema is modeled without redundancies</details>
+              <generalCategoryKey>Representional Data Store Quality</generalCategoryKey>
+              <categoryId>0</categoryId>
+            </subproperties>
+            <subproperties>
+              <id>1</id>
+              <name>Schema Normalization</name>
+              <points>0</points>
+              <details>Degree to which the schema is de-/normalized</details>
+              <generalCategoryKey>Representional Data Store Quality</generalCategoryKey>
+              <categoryId>0</categoryId>
+            </subproperties>
+            <subproperties>
+              <id>2</id>
+              <name>Schema Pertinence</name>
+              <points>0</points>
+              <details>Degreee to which the schema is modeled without unnecessary elements</details>
+              <generalCategoryKey>Representional Data Store Quality</generalCategoryKey>
+              <categoryId>0</categoryId>
+            </subproperties>
+          </value>
+        </value>
+      </value>
+    </categories>
+  </metadata>
+</docElement>

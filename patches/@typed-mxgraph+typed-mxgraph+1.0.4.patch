@@ -1,0 +1,69 @@
+diff --git a/node_modules/@typed-mxgraph/typed-mxgraph/lib/model/mxCell.d.ts b/node_modules/@typed-mxgraph/typed-mxgraph/lib/model/mxCell.d.ts
+index ba90c92..46ae7e7 100644
+--- a/node_modules/@typed-mxgraph/typed-mxgraph/lib/model/mxCell.d.ts
++++ b/node_modules/@typed-mxgraph/typed-mxgraph/lib/model/mxCell.d.ts
+@@ -422,7 +422,7 @@ declare module 'mxgraph' {
+      * @param defaultValueOptional  default value to use if the attribute has no
+      * value.
+      */
+-    getAttribute(name: string, defaultValue: any): any;
++    getAttribute(name: string, defaultValue?: any): any;
+ 
+     /**
+      * Sets the specified attribute on the user object if it is an XML node.
+diff --git a/node_modules/@typed-mxgraph/typed-mxgraph/lib/model/mxGeometry.d.ts b/node_modules/@typed-mxgraph/typed-mxgraph/lib/model/mxGeometry.d.ts
+index 8d43751..90a0a5c 100644
+--- a/node_modules/@typed-mxgraph/typed-mxgraph/lib/model/mxGeometry.d.ts
++++ b/node_modules/@typed-mxgraph/typed-mxgraph/lib/model/mxGeometry.d.ts
+@@ -99,7 +99,7 @@ declare module 'mxgraph' {
+      * use {@link targetPoint} and {@link sourcePoint} or set the terminals of the edge to
+      * a non-null value. Default is null.
+      */
+-    points: Array<mxPoint>;
++    points: Array<mxPoint> | null;
+ 
+     /**
+      * For edges, this holds the offset (in pixels) from the position defined
+diff --git a/node_modules/@typed-mxgraph/typed-mxgraph/lib/util/mxEventSource.d.ts b/node_modules/@typed-mxgraph/typed-mxgraph/lib/util/mxEventSource.d.ts
+index c52f09e..24a5f1d 100644
+--- a/node_modules/@typed-mxgraph/typed-mxgraph/lib/util/mxEventSource.d.ts
++++ b/node_modules/@typed-mxgraph/typed-mxgraph/lib/util/mxEventSource.d.ts
+@@ -89,6 +89,6 @@ declare module 'mxgraph' {
+      * sender - Optional sender to be passed to the listener. Default value is
+      * the return value of <getEventSource>.
+      */
+-    fireEvent(evt: mxEventObject, sender: any): void;
++    fireEvent(evt: mxEventObject, sender?: any): void;
+   }
+ }
+diff --git a/node_modules/@typed-mxgraph/typed-mxgraph/lib/util/mxUtils.d.ts b/node_modules/@typed-mxgraph/typed-mxgraph/lib/util/mxUtils.d.ts
+index d215095..8fdd6b4 100644
+--- a/node_modules/@typed-mxgraph/typed-mxgraph/lib/util/mxUtils.d.ts
++++ b/node_modules/@typed-mxgraph/typed-mxgraph/lib/util/mxUtils.d.ts
+@@ -271,7 +271,7 @@ declare module 'mxgraph' {
+      */
+     static makeDraggable(
+       element: HTMLElement,
+-      graphF: mxGraph,
++      graphF: mxGraph |( (evt: MouseEvent) => mxGraph | null),
+       funct: Function,
+       dragElement?: Node,
+       dx?: number,
+diff --git a/node_modules/@typed-mxgraph/typed-mxgraph/lib/view/mxGraph.d.ts b/node_modules/@typed-mxgraph/typed-mxgraph/lib/view/mxGraph.d.ts
+index b2fde5c..3721042 100644
+--- a/node_modules/@typed-mxgraph/typed-mxgraph/lib/view/mxGraph.d.ts
++++ b/node_modules/@typed-mxgraph/typed-mxgraph/lib/view/mxGraph.d.ts
+@@ -1537,6 +1537,13 @@ declare module 'mxgraph' {
+      */
+     getCellsForGroup(cells: mxCell[]): mxCell[];
+ 
++    /**
++     * Function: getCellsForUngroup
++     * 
++     * Returns the selection cells that can be ungrouped.
++     */
++     getCellsForUngroup(): mxCell[];
++
+     /**
+      * Returns the bounds to be used for the given group and children.
+      */

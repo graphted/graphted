@@ -1,0 +1,481 @@
+{
+    "Property": {
+        "id": 0,
+        "type": "data_provider",
+        "iotTypes": [
+            "iiot"
+        ],
+        "categories": {
+            "dataType": "Map",
+            "value": [
+                {
+                    "Entry": {
+                        "key": "General",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": -1,
+                                    "name": "Data provider type",
+                                    "description": "Describes the type of the technology.",
+                                    "points": [
+                                        {
+                                            "groupName": "legacy",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "intelligent",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "Age",
+                                    "description": "Describes the deterioration of the sensor/device/machine; this includes aspects such as the battery condition, the sensor age and the technology used.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "old",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "legacy technology, operating hours exceed average lifespan"
+                                        },
+                                        {
+                                            "groupName": "middle",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "state-of-the art technology, operating hours lower average lifespan"
+                                        },
+                                        {
+                                            "groupName": "new",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "new technology, few operating hours"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Provider Type",
+                                    "description": "Describes whether the data provided are partly based on human input or were created entirely by the sensor/device/machine itself.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "persons involved",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "(partial) manual data entry/dependence"
+                                        },
+                                        {
+                                            "groupName": "only sensor/device/machine",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "no manual data entry/dependence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Location",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Environment",
+                                    "description": "Describes the physical environment in which the sensor/device/machine operates (e.g. temperature range, humidity range, vibration). It also takes into account how often these aspects change (e.g. from extremely hot to cold each day). It further takes into account the level of physical vulnerability (e.g. theft, damage)",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "harsh, dynamically changing",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "extreme conditions, conditions change often, likely to damage/theft"
+                                        },
+                                        {
+                                            "groupName": "moderate, seldom changing",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "moderate conditions, conditions change seldom, damage/theft is possible"
+                                        },
+                                        {
+                                            "groupName": "mild, never changing",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "mild conditions, conditions change never, damage/theft is not likely"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Mobility",
+                                    "description": "Describes whether the sensor/device/machine physically moves during operation.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "always",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "moving most of the time"
+                                        },
+                                        {
+                                            "groupName": "sometimes",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "moving sometimes"
+                                        },
+                                        {
+                                            "groupName": "never",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "never moving"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Energy",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Power source",
+                                    "description": "Describes the type of power supply of the sensor/device/machine.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "battery",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "battery-powered"
+                                        },
+                                        {
+                                            "groupName": "hardwired",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "wired power supply"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Usage",
+                                    "description": "Describes the power consumption behaviour of the sensor/device/machine.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "low",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "rarely on, passive mode/sleep mechanisms used"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "power saving, passive mode/sleep mechanisms used"
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "always on, no passive mode/sleep mechanisms used"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Connectivity",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Mechanism",
+                                    "description": "Describes the physical mechanism used to convey any data from the sensor/device/machine.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "wireless",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "spectrum, light, sound; e.g. radio frequency (e.g. RFID, Bluetooth Low Energy)"
+                                        },
+                                        {
+                                            "groupName": "physical",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "pressure, mechanical, thermal; e.g. ultrasonic communication (e.g. SoniTalk)"
+                                        },
+                                        {
+                                            "groupName": "wired",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "electrical, fibre optic; e.g. Ethernet"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Hardware",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "Quality",
+                                    "description": "Describes various quality-related hardware characteristics of the sensor/device/machine; this includes aspects such as the precision, accuracy and sensitivity of the hardware.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "old",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "low cost sensors, commodity nature, not suitable for use in the application used"
+                                        },
+                                        {
+                                            "groupName": "middle",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "state-of-the art quality, suitable for use in the application used"
+                                        },
+                                        {
+                                            "groupName": "new",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "highly precise and robust hardware"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Maintenance/calibration",
+                                    "description": "Describes the frequency of maintenance activities to be carried out on the sensor/device/machine.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "old",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "never serviced"
+                                        },
+                                        {
+                                            "groupName": "middle",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "sporadic serviced (e.g. in case of failures)"
+                                        },
+                                        {
+                                            "groupName": "new",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "regularly serviced"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Ease of replacement/repair",
+                                    "description": "Describes how easy it is to repair or replace the sensor/device/machine in the event of faulty or malfunctioning behaviour; this includes aspects such as the physical accessibility and the difficulty of repair, as well as the availability of spare parts.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "old",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "unsupported, no experience, no access"
+                                        },
+                                        {
+                                            "groupName": "middle",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "Supported, no experience, accessible"
+                                        },
+                                        {
+                                            "groupName": "new",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "supported, knowledge available, accessible"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Constraints",
+                                    "description": "Describes the extent of resource constraints the sensor/device/machine suffers from; this includes aspects such as power, storage and computation limitations; it also takes into account the availability of backup power supply.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "severe limitations",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "low battery capacity, low-performance hardware, no backup power source"
+                                        },
+                                        {
+                                            "groupName": "moderate limitations",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "state-of-the art hardware"
+                                        },
+                                        {
+                                            "groupName": "no limitations",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "high battery capacity, high-performance hardware, backup power available"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Entry": {
+                        "key": "Data preprocessing",
+                        "value": {
+                            "value": [
+                                {
+                                    "id": 0,
+                                    "name": "",
+                                    "description": "Describes the level of data preprocessing that is carried out on the sensor/device/machine; this includes aspects such as data aggregation or modification.",
+                                    "points": [
+                                        {
+                                            "groupName": "no selection",
+                                            "value": -1,
+                                            "setValue": -1,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "groupName": "high",
+                                            "value": 5,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "lot of data preprocessing carried out"
+                                        },
+                                        {
+                                            "groupName": "medium",
+                                            "value": 3,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "state-of-the art level of preprocessing carried out"
+                                        },
+                                        {
+                                            "groupName": "low/no",
+                                            "value": 0,
+                                            "setValue": 0,
+                                            "isSelected": false,
+                                            "details": "no essential data preprocessing carried out"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

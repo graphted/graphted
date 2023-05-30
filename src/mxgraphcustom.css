@@ -1,0 +1,63 @@
+div.mxPopupMenu {
+    background: white;
+}
+
+div.mxPopupMenu {
+    box-shadow: 3px 3px 12px #c0c0c0;
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.705);
+}
+
+table.mxPopupMenu {
+    border-collapse: collapse;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+tr.mxPopupMenuItem {
+  -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  color: black;
+  cursor: pointer;
+}
+
+tr.mxPopupMenuItemHover {
+    background-color: rgb(189, 188, 188);
+    color: black;
+    cursor: pointer;
+}
+
+td.mxPopupMenuItem {
+    padding: 2px 30px 2px 10px;
+    white-space: nowrap;
+    font-family: Helvetica,Arial;
+    font-size: 8pt;
+}
+
+td.mxPopupMenuIcon {
+    background-color: #d0d0d0;
+    padding: 0px;
+}
+
+html td.mxPopupMenuIcon {
+    background-color:white;
+    padding:0px;
+}
+
+div.mxTooltip {
+    position: absolute;
+    background: rgba(245, 245, 245, 0.692);
+    font-size: 8pt;
+    color: black;
+    padding:6px;
+}
+
+.graphted-flex-container{
+    display: flex;
+    width: 100%;  
+}

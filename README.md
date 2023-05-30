@@ -1,16 +1,14 @@
-### Hi there 👋
+# Graphted
+React based graph editor with form extension for data source assassment.
 
-<!--
-**graphted/graphted** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Use cases
 
-Here are some ideas to get you started:
+### Data source assassment of IoT systems
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### IIoT data source assessment
+
+#### CIoT data source assessment
+
+## Main Dependencies
+For UI Components: [primereact](https://github.com/primefaces/primereact)
+Graph editor is based on type based [mxgraph](https://github.com/jgraph/mxgraph): [typed-mxgraph](https://github.com/typed-mxgraph/typed-mxgraph/)

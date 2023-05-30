@@ -1,0 +1,27 @@
+/* Add custom image to menubar
+.cut {
+    background: url(/src/data/menuitems/cut-svgrepo-com.svg) !important;
+    height: 16px;
+    width: 16px;
+} */
+
+.flipX {
+    transform: scaleX(-1);
+  }
+
+.flipY {
+    transform: scaleY(-1);
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.offset-to-navbar {
+    margin-top: 4rem;
+}
+
