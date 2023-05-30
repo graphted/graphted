@@ -1,0 +1,226 @@
+<mxStylesheet>
+    <add as="defaultVertex">
+        <add as="shape" value="label"/>
+        <add as="perimeter" value="rectanglePerimeter"/>
+        <add as="fontSize" value="12"/>
+        <add as="fontFamily" value="Helvetica"/>
+
+        <add as="align" value="center"/>
+        <add as="verticalAlign" value="middle"/>
+
+        <add as="fillColor" value="#ffffff"/>
+        <add as="strokeColor" value="#000000"/>
+        <add as="fontColor" value="#000000"/>
+        <!--
+            Missing
+            linePattern
+            lineWidth
+
+            rounded/shadow/glass/sketch
+        -->
+        <!-- extracted from hardcoded vertex-->
+        <!-- TODO Filter real vertex only properties -->
+        <add as="imageBorder" value="none"/>
+        <add as="gradientColor" value="none"/>
+        <add as="rounded" value="0"/>
+        <add as="shadow" value="0"/>
+        <add as="fontFamily" value="Times"/>
+        <add as="rotation" value="0"/>
+        <add as="strokeWidth" value="1"/>
+        <add as="fontStyle" value="0"/>
+        <add as="labelBackgroundColor" value="none"/>
+        <add as="labelBorderColor" value="none"/>
+        <add as="textDirection" value="ltr"/>
+        <!-- setting whiteSpace with no default, because otherwise setting it to null would just reinitiate the default value. Since it doesn't exist any more-->
+        <add as="whiteSpace" value="none"/>
+        <add as="swimlaneFillColor" value="none"/>
+        <add as="gradientDirection" value="south"/>
+        <add as="perimeterSpacing" value="0"/>
+        
+        <!-- position for Text in center is none of these set-->
+        <!-- <add as="verticalLabelPosition" = "middle"/>
+        <add as="labelPosition" = "center"/> -->
+
+        <!-- FIXME: Spacing seems to put text not related to vertex-->
+
+        <add as="spacing" value="0"/>
+        <add as="spacingTop" value="0"/>
+        <add as="spacingLeft" value="0"/>
+        <add as="spacingRight" value="0"/>
+        <add as="spacingBottom" value="0"/>
+ 
+        <!-- extracted from hardcoded vertex missing in tabview-->
+        <!-- <add as="perimeterSpacing" value="none"/> --> 
+
+        <add as="labelPosition" value="center"/>
+        <add as="verticalLabelPosition" value="middle"/>
+
+        <!-- constrain proportions enable-->
+        <!-- <add as="aspect" value="fixed"/> -->
+        <!-- constrain proportions disable-->
+        <add as="aspect" value="empty"/> 
+    </add>
+    <add as="defaultEdge">
+        <add as="shape" value="connector"/>
+        <add as="labelBackgroundColor" value="#ffffff"/>
+        <add as="startArrow" value="none"/>
+        <add as="endArrow" value="classic"/>
+        <add as="fontSize" value="11"/>
+        <add as="fontFamily" value="Helvetica"/>
+        <add as="align" value="center"/>
+        <add as="verticalAlign" value="middle"/>
+        <add as="rounded" value="1"/>
+        <add as="strokeColor" value="#000000"/>
+        <add as="fontColor" value="#000000"/>
+
+        <!--
+            Missing 
+                edge specifig LineTypeOptions -> sharp/rounded/edged
+
+                Spacing options:
+                    Line Start/ Line End & Size
+                shadow/sketch
+        -->
+
+        <!-- FIXME: Spacing seems to put text not related to edge-->
+        <add as="spacing" value="0"/>
+        <add as="spacingTop" value="0"/>
+        <add as="spacingLeft" value="0"/>
+        <add as="spacingRight" value="0"/>
+        <add as="spacingBottom" value="0"/>
+        <!-- extracted from hardcoded edge-->
+        <add as="strokeWidth" value="1"/>
+        <add as="edgeStyle" value="elbowEdgeStyle"/>
+        <add as="fillColor" value="#000000"/>
+        <add as="gradientColor" value="none"/>
+        <add as="shadow" value="0"/>
+        <add as="fontStyle" value="0"/>
+        <add as="labelBorderColor" value="none"/>
+        <!-- only works in combination with alignment-->
+        <add as="textDirection" value="ltr"/>
+        <add as="align" value="left"/>
+        <!-- ... -->
+        <!-- <add as="whiteSpace" value="wrap"/> -->
+    </add>
+    <add as="text">
+        <add as="fillColor" value="none"/>
+        <add as="gradientColor" value="none"/>
+        <add as="strokeColor" value="none"/>
+        <add as="align" value="left"/>
+        <add as="verticalAlign" value="top"/>
+        <!--
+            Missing
+
+            Texteditor options:
+                Bold
+                Italic
+                Underlined
+
+                Vertical
+
+                Alignment Left/Center/Right
+                          Top/Middle/Buttom
+
+            Position
+            Writing Direction 
+            Background color
+            Border color
+            Word Wrap
+            Formatted Text
+            Spacing
+        -->
+    </add>
+    <add as="edgeLabel" extend="text">
+        <add as="labelBackgroundColor" value="#ffffff"/>
+        <add as="fontSize" value="11"/>
+        
+        <add as="labelPosition" value="center"/>
+        <add as="verticalLabelPosition" value="middle"/>
+    </add>
+    <add as="label">
+        <add as="fontStyle" value="1"/>
+        <add as="align" value="left"/>
+        <add as="verticalAlign" value="middle"/>
+        <add as="spacing" value="2"/>
+        <add as="spacingLeft" value="52"/>
+        <add as="imageWidth" value="42"/>
+        <add as="imageHeight" value="42"/>
+        <add as="rounded" value="1"/>
+
+        <add as="labelPosition" value="center"/>
+        <add as="verticalLabelPosition" value="middle"/>
+    </add>
+    <add as="icon" extend="label">
+        <add as="align" value="center"/>
+        <add as="imageAlign" value="center"/>
+        <add as="verticalLabelPosition" value="bottom"/>
+        <add as="verticalAlign" value="top"/>
+        <add as="spacingTop" value="4"/>
+        <add as="labelBackgroundColor" value="#ffffff"/>
+        <add as="spacing" value="0"/>
+        <add as="spacingLeft" value="0"/>
+        <add as="spacingTop" value="6"/>
+        <add as="fontStyle" value="0"/>
+        <add as="imageWidth" value="48"/>
+        <add as="imageHeight" value="48"/>
+    </add>
+    <add as="swimlane">
+        <add as="shape" value="swimlane"/>
+        <add as="fontSize" value="12"/>
+        <add as="fontStyle" value="1"/>
+        <add as="startSize" value="23"/>
+    </add>
+    <add as="group">
+        <add as="verticalAlign" value="top"/>
+        <add as="fillColor" value="none"/>
+        <add as="strokeColor" value="none"/>
+        <add as="gradientColor" value="none"/>
+        <add as="pointerEvents" value="0"/>
+    </add>
+    <add as="ellipse">
+        <add as="shape" value="ellipse"/>
+        <add as="perimeter" value="ellipsePerimeter"/>
+    </add>
+    <add as="rhombus">
+        <add as="shape" value="rhombus"/>
+        <add as="perimeter" value="rhombusPerimeter"/>
+    </add>
+    <add as="triangle">
+        <add as="shape" value="triangle"/>
+        <add as="perimeter" value="trianglePerimeter"/>
+    </add>
+    <add as="line">
+        <add as="shape" value="line"/>
+        <add as="strokeWidth" value="4"/>
+        <add as="labelBackgroundColor" value="#ffffff"/>
+        <add as="verticalAlign" value="top"/>
+        <add as="spacingTop" value="8"/>
+    </add>
+    <add as="image">
+        <add as="shape" value="image"/>
+        <add as="labelBackgroundColor" value="white"/>
+        <add as="verticalAlign" value="top"/>
+        <add as="verticalLabelPosition" value="bottom"/>
+        <!-- image only-->
+        <add as="flipH" value="0"/>
+        <add as="flipV" value="0"/>
+    </add>
+    <add as="roundImage" extend="image">
+        <add as="perimeter" value="ellipsePerimeter"/>
+    </add>
+    <add as="rhombusImage" extend="image">
+        <add as="perimeter" value="rhombusPerimeter"/>
+    </add>
+    <add as="arrow">
+        <add as="shape" value="arrow"/>
+        <add as="edgeStyle" value="none"/>
+        <add as="fillColor" value="#ffffff"/>
+    </add>
+    <!-- custom categories-->
+    <add as="WaypointStyle-Straight">
+        <add as="edgeStyle" value="null"/>
+        <add as="curved" value="null"/>
+        <add as="noEdgeStyle" value="null"/>
+    </add>
+
+</mxStylesheet>
